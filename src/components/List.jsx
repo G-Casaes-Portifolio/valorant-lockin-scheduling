@@ -5,25 +5,39 @@ function List() {
   const options = {weekday: 'long', month: 'numeric', day: 'numeric',
     hour: '2-digit', minute: '2-digit'}
 
+  const showPanel = (id) => {
+    let element = document.getElementById(id);
+    console.log(element)
+    if(element.className.includes(':active')) 
+      element.className = element.className.replace(':active', '')
+    else 
+      element.className = element.className.concat(':active')
+  }
+
   return (
-    <div className="list-container">
+    <div className="list-panel">
       {data.datetime.map((roundset, i) => (
-      <div className="round-list" key={i}>
+      <div className="list-item" key={i}>
         <h1>{roundset.title}</h1>
-        <ul className="round-container">
+        <div className="round-container">
         {roundset.games.map((round, i) => (
-          <li key={i}>
-            <h2>{round.title}</h2>
-            <ul className="game-list">
-              {round.games.map((game, i) => {
-                return <li key={i}>
-                  {new Date(game).toLocaleDateString('pt-BR', options).toString()}
-                </li>
-              })}
-            </ul>
-          </li>
+          <>
+          <h1 onClick={() => showPanel(
+            `${roundset.title}-${round.title}`)}>
+              {round.title}
+            </h1>
+          <ul /* ContentPanel */ 
+          className="content"
+          id={`${roundset.title}-${round.title}`}>
+            {round.games.map((game, i) => {
+              return <li key={i}>
+                {new Date(game).toLocaleDateString('pt-BR', options).toString()}
+              </li>
+            })}
+          </ul>
+          </>
         ))}
-        </ul>
+        </div>
       </div>
       ))}
     </div>

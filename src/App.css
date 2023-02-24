@@ -6,12 +6,12 @@
 }
 
 /* LIST VIEW */
-.list-container {
+.list-panel {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.round-list {
+.list-item {
   display: flex;
   border: thin white solid;
   flex-flow: column nowrap;
@@ -22,9 +22,19 @@
   padding: 0;
   list-style-type: none;
 }
+.round-container h1 {
+  padding: 0 1rem;
+  cursor: pointer;
+}
 
-.game-list {
+.content { 
+  display: none;
+}
+.content:active {
+  display: inline;
+}
+
+.content {
   margin: 0;
-  padding: 0 4em;
 }
 
