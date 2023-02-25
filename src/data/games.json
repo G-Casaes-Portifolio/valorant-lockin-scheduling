@@ -2,142 +2,198 @@
   "games": [
     { 
       "id": 1,
-      "teams": ["NOI", "NRG"],
+      "teams": ["KOI", "NRG"],
+      "score": [0, 2],
+      "winner": "NRG",
       "datetime": "2023-02-13T14:00:00"
     }, 
     { 
       "id": 2,
       "teams": ["DET", "GIA"],
+      "score": [0, 2],
+      "winner": "GIA",
       "datetime": "2023-02-13T17:00:00"
     }, 
     { 
       "id": 3,
       "teams": ["GEN", "LOU"],
+      "score": [0, 2],
+      "winner": "LOU",
       "datetime": "2023-02-15T20:00:00"
     },
     { 
       "id": 4,
       "teams": ["FUN", "KAR"],
+      "score": [1, 2],
+      "winner": "KAR",
       "datetime": "2023-02-14T14:00:00"
     },
     { 
       "id": 5,
       "teams": ["BBL", "DRX"],
+      "score": [1, 2],
+      "winner": "DRX",
       "datetime": "2023-02-14T17:00:00"
     },
     { 
       "id": 6,
       "teams": ["CL9", "REX"],
+      "score": [2, 0],
+      "winner": "CL9",
       "datetime": "2023-02-14T20:00:00"
     },
     {
       "id": 7,
       "teams": ["HER", "EVI"],
+      "score": [0, 2],
+      "winner": "EVI",
       "datetime": "2023-02-15T14:00:00"
     },
     {
       "id": 8,
       "teams": ["MBR", "TAL"],
+      "score": [0, 2],
+      "winner": "TAL",
       "datetime": "2023-02-15T17:00:00"
     },
     {
       "id": 9,
       "teams": [1, 2],
+      "score": [2, 1],
+      "winner": "NRG",
       "datetime": "2023-02-17T14:00:00"
     },
     {
       "id": 10,
       "teams": [3, 4],
+      "score": [2, 1],
+      "winner": "LOU",
       "datetime": "2023-02-17T17:00:00"
     },
     {
       "id": 11,
       "teams": [5, 6],
+      "score": [2, 1],
+      "winner": "DRX",
       "datetime": "2023-02-18T14:00:00"
     },
     {
       "id": 12,
       "teams": [7, 8],
+      "score": [0, 2],
+      "winner": "TAL",
       "datetime": "2023-02-18T17:00:00"
     },
     {
       "id": 13,
       "teams": [9, 10],
+      "score": [1, 2],
+      "winner": "LOU",
       "datetime": "2023-02-19T14:00:00"
     },
     {
       "id": 14,
       "teams": [11, 12],
+      "score": [2, 1],
+      "winner": "DRX",
       "datetime": "2023-02-19T17:00:00"
     },
     {
       "id": 15,
       "teams": ["LQD", "SCR"],
+      "score": [0, 2],
+      "winner": "SCR",
       "datetime": "2023-02-22T14:00:00"
     },
     {
       "id": 16,
       "teams": ["NAV", "KRU"],
+      "score": [2, 0],
+      "winner": "NAV",
       "datetime": "2023-02-22T17:00:00"
     },
     {
       "id": 17,
       "teams": ["ZET", "LEV"],
+      "score": [0, 2],
+      "winner": "LEV",
       "datetime": "2023-02-22T20:00:00"
     },
     {
       "id": 18,
       "teams": ["VIT", "GLO"],
+      "score": [2, 1],
+      "winner": "GLO",
       "datetime": "2023-02-23T14:00:00"
     },
     {
       "id": 19,
       "teams": ["FUT", "RRQ"],
+      "score": [2, 0],
+      "winner": "FUT",
       "datetime": "2023-02-23T17:00:00"
     },
     {
       "id": 20,
       "teams": ["100", "EDG"],
+      "score": [2, 1],
+      "winner": "100",
       "datetime": "2023-02-23T20:00:00"
     },
     {
       "id": 21,
       "teams": ["SEN", "FNT"],
+      "score": [0, 2],
+      "winner": "FNT",
       "datetime": "2023-02-24T14:00:00"
     },
     {
       "id": 22,
       "teams": ["T1", "FUR"],
+      "score": [0, 2],
+      "winner": "FUR",
       "datetime": "2023-02-24T17:00:00"
     },
     {
       "id":  23,
       "teams": [15, 16],
+      "score": [0, 0],
+      "winner": "",
       "datetime": "2023-02-25T14:00:00"
     },
     {
       "id": 24,
       "teams": [17, 18],
+      "score": [0, 0],
+      "winner": "",
       "datetime": "2023-02-25T17:00:00"
     },
     {
       "id": 25,
       "teams": [19, 20],
+      "score": [0, 0],
+      "winner": "",
       "datetime": "2023-02-26T14:00:00"
     },
     {
       "id": 26,
       "teams": [21, 22],
+      "score": [0, 0],
+      "winner": "",
       "datetime": "2023-02-26T17:00:00" 
     },
     {
       "id": 27,
       "teams": [23, 24],
+      "score": [0, 0],
+      "winner": "",
       "datetime": "2023-02-27T14:00:00"
     },
     {
       "id": 28,
       "teams": [25, 26],
+      "score": [0, 0],
+      "winner": "",
       "datetime": "2023-02-27T17:00:00"
     }
   ] 
