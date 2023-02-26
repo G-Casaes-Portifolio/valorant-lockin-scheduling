@@ -1,3 +1,9 @@
+:root {
+  --calendar-bg-color: #787878;
+  --calendar-aux-color: #292929;
+  --calendar-main-color: #ebc04b;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -33,6 +39,30 @@
 .content:active {
   display: block;
 }
+
+/* CALENDAR VIEW */
+table {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 
+}
+
+td {
+  border: white thin solid;
+  background-color: var(--calendar-bg-color);
+}
+td * {
+  font-style: italic;
+}
+
+td .day {
+  color: var(--calendar-aux-color);
+  font-weight: 700;
+}
+
+td .day-in-month {
+  color: var(--calendar-main-color);
+}
+
 
 
 
