@@ -1,4 +1,14 @@
+import { useState } from "react";
 import data from "../data/games.json"
+
+function clock() {
+  const today = new Date().toLocaleString("pt-BR").split(",")[0];
+  return (
+    <div className="clock">
+      <h2>{today}</h2>
+    </div>
+  )
+}
 
 function gridCalendar() {
   const week = ["segunda", "terça", "quarta", 
@@ -20,12 +30,18 @@ function gridCalendar() {
   }
 
   return (table)
-console.log(table)
 }
 
 function Calendar() {
+
+
+
+
   return (
     <div>
+      <p>
+        {clock()}
+      </p>
       <table>
         {gridCalendar()}
       </table>

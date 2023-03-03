@@ -10,7 +10,7 @@ function App() {
       <div className="nav">
         <Link to="list">Lista</Link>
         <Link to="calendar">Calendario</Link>
-        <Link to="teams">Equipes</Link>
+        <Link to="table">Partidas</Link>
       </div>
       <div>
         <Outlet />

@@ -1,0 +1,221 @@
+{
+  "games": [
+    {
+      "datetime": "2023-02-13T14:15:00",
+      "round": "Round of 32",
+      "participant1": "KOI KOI",
+      "finalScore": "0 : 2",
+      "participant2": "NRG NRG"
+    },
+    {
+      "datetime": "2023-02-13T17:05:00",
+      "round": "Round of 32",
+      "participant1": "DFM DetonatioN FocusMe",
+      "finalScore": "0 : 2",
+      "participant2": "Giants GIA"
+    },
+    {
+      "datetime": "2023-02-14T14:10:00",
+      "round": "Round of 32",
+      "participant1": "FPX FunPlus Phoenix",
+      "finalScore": "1 : 2",
+      "participant2": "Karmine Corp KC"
+    },
+    {
+      "datetime": "2023-02-14T17:45:00",
+      "round": "Round of 32",
+      "participant1": "BBL BBL Esports",
+      "finalScore": "1 : 2",
+      "participant2": "DRX DRX"
+    },
+    {
+      "datetime": "2023-02-14T20:50:00",
+      "round": "Round of 32",
+      "participant1": "C9 Cloud9",
+      "finalScore": "2 : 0",
+      "participant2": "Paper Rex PRX"
+    },
+    {
+      "datetime": "2023-02-15T14:05:00",
+      "round": "Round of 32",
+      "participant1": "EG Evil Geniuses",
+      "finalScore": "2 : 0",
+      "participant2": "Team Heretics TH"
+    },
+    {
+      "datetime": "2023-02-15T16:35:00",
+      "round": "Round of 32",
+      "participant1": "MIBR MIBR",
+      "finalScore": "0 : 2",
+      "participant2": "Talon Esports TLN"
+    },
+    {
+      "datetime": "2023-02-15T19:20:00",
+      "round": "Round of 32",
+      "participant1": "GEN Gen.G Esports",
+      "finalScore": "0 : 2",
+      "participant2": "LOUD LOUD"
+    },
+    {
+      "datetime": "2023-02-17T14:10:00",
+      "round": "Round of 16",
+      "participant1": "NRG NRG",
+      "finalScore": "2 : 1",
+      "participant2": "Giants GIA"
+    },
+    {
+      "datetime": "2023-02-17T17:40:00",
+      "round": "Round of 16",
+      "participant1": "LOUD LOUD",
+      "finalScore": "2 : 0",
+      "participant2": "Karmine Corp KC"
+    },
+    {
+      "datetime": "2023-02-18T14:05:00",
+      "round": "Round of 16",
+      "participant1": "DRX DRX",
+      "finalScore": "2 : 1",
+      "participant2": "Cloud9 C9"
+    },
+    {
+      "datetime": "2023-02-18T17:00:00",
+      "round": "Round of 16",
+      "participant1": "EG Evil Geniuses",
+      "finalScore": "0 : 2",
+      "participant2": "Talon Esports TLN"
+    },
+    {
+      "datetime": "2023-02-19T14:05:00",
+      "round": "Quarterfinals",
+      "participant1": "NRG NRG",
+      "finalScore": "1 : 2",
+      "participant2": "LOUD LOUD"
+    },
+    {
+      "datetime": "2023-02-19T18:05:00",
+      "round": "Quarterfinals",
+      "participant1": "DRX DRX",
+      "finalScore": "2 : 1",
+      "participant2": "Talon Esports TLN"
+    },
+    {
+      "datetime": "2023-02-22T14:10:00",
+      "round": "Round of 32",
+      "participant1": "TL Team Liquid",
+      "finalScore": "0 : 2",
+      "participant2": "Team Secret TS"
+    },
+    {
+      "datetime": "2023-02-22T16:35:00",
+      "round": "Round of 32",
+      "participant1": "NAVI Natus Vincere",
+      "finalScore": "2 : 0",
+      "participant2": "KRÜ Esports KRÜ"
+    },
+    {
+      "datetime": "2023-02-22T19:00:00",
+      "round": "Round of 32",
+      "participant1": "ZETA ZETA DIVISION",
+      "finalScore": "0 : 2",
+      "participant2": "Leviatán LEV"
+    },
+    {
+      "datetime": "2023-02-23T14:10:00",
+      "round": "Round of 32",
+      "participant1": "VIT Team Vitality",
+      "finalScore": "2 : 1",
+      "participant2": "Global Esports GE"
+    },
+    {
+      "datetime": "2023-02-23T17:15:00",
+      "round": "Round of 32",
+      "participant1": "FUT FUT Esports",
+      "finalScore": "2 : 0",
+      "participant2": "Rex Regum Qeon RRQ"
+    },
+    {
+      "datetime": "2023-02-23T19:30:00",
+      "round": "Round of 32",
+      "participant1": "100T 100 Thieves",
+      "finalScore": "2 : 1",
+      "participant2": "EDward Gaming EDG"
+    },
+    {
+      "datetime": "2023-02-24T14:05:00",
+      "round": "Round of 32",
+      "participant1": "SEN Sentinels",
+      "finalScore": "0 : 2",
+      "participant2": "Fnatic FNC"
+    },
+    {
+      "datetime": "2023-02-24T16:50:00",
+      "round": "Round of 32",
+      "participant1": "T1 T1",
+      "finalScore": "0 : 2",
+      "participant2": "FURIA Esports FUR"
+    },
+    {
+      "datetime": "2023-02-25T14:05:00",
+      "round": "Round of 16",
+      "participant1": "TS Team Secret",
+      "finalScore": "0 : 2",
+      "participant2": "Natus Vincere NAVI"
+    },
+    {
+      "datetime": "2023-02-25T16:30:00",
+      "round": "Round of 16",
+      "participant1": "LEV Leviatán",
+      "finalScore": "2 : 0",
+      "participant2": "Team Vitality VIT"
+    },
+    {
+      "datetime": "2023-02-26T14:05:00",
+      "round": "Round of 16",
+      "participant1": "FUT FUT Esports",
+      "finalScore": "1 : 2",
+      "participant2": "100 Thieves 100T"
+    },
+    {
+      "datetime": "2023-02-26T17:35:00",
+      "round": "Round of 16",
+      "participant1": "FNC Fnatic",
+      "finalScore": "2 : 0",
+      "participant2": "FURIA Esports FUR"
+    },
+    {
+      "datetime": "2023-02-27T14:05:00",
+      "round": "Quarterfinals",
+      "participant1": "NAVI Natus Vincere",
+      "finalScore": "2 : 0",
+      "participant2": "Leviatán LEV"
+    },
+    {
+      "datetime": "2023-02-27T16:25:00",
+      "round": "Quarterfinals",
+      "participant1": "100T 100 Thieves",
+      "finalScore": "0 : 2",
+      "participant2": "Fnatic FNC"
+    },
+    {
+      "datetime": "2023-03-2T14:10:00",
+      "round": "Semifinals",
+      "participant1": "LOUD LOUD",
+      "finalScore": "3 : 2",
+      "participant2": "DRX DRX"
+    },
+    {
+      "datetime": "2023-03-3T14:05:00",
+      "round": "Semifinals",
+      "participant1": "NAVI Natus Vincere",
+      "finalScore": "0 : 3",
+      "participant2": "Fnatic FNC"
+    },
+    {
+      "datetime": "2023-03-4T15:00:00",
+      "round": "Grand Final",
+      "participant1": "LOUD LOUD",
+      "finalScore": "0 : 0",
+      "participant2": "Fnatic FNC"
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import './index.css';
 import List from './components/List';
 import Calendar from './components/Calendar';
 import Teams from './components/Teams';
+import Table from './components/Table';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route path="list" element={<List />} />
       <Route path="calendar" element={<Calendar />} />
       <Route path="teams" element={<Teams />} />
+      <Route path="table" element={<Table />} />
     </Route>
   )
 );

@@ -1,0 +1,32 @@
+DATETIME;ROUND;PARTICIPANT1;FINALSCORE;PARTICIPANT2
+2023-02-13T14:15:00;Round of 32;KOI KOI;0 : 2;NRG NRG
+2023-02-13T17:05:00;Round of 32;DFM DetonatioN FocusMe;0 : 2;Giants GIA
+2023-02-14T14:10:00;Round of 32;FPX FunPlus Phoenix;1 : 2;Karmine Corp KC
+2023-02-14T17:45:00;Round of 32;BBL BBL Esports;1 : 2;DRX DRX
+2023-02-14T20:50:00;Round of 32;C9 Cloud9;2 : 0;Paper Rex PRX
+2023-02-15T14:05:00;Round of 32;EG Evil Geniuses;2 : 0;Team Heretics TH
+2023-02-15T16:35:00;Round of 32;MIBR MIBR;0 : 2;Talon Esports TLN
+2023-02-15T19:20:00;Round of 32;GEN Gen.G Esports;0 : 2;LOUD LOUD
+2023-02-17T14:10:00;Round of 16;NRG NRG;2 : 1;Giants GIA
+2023-02-17T17:40:00;Round of 16;LOUD LOUD;2 : 0;Karmine Corp KC
+2023-02-18T14:05:00;Round of 16;DRX DRX;2 : 1;Cloud9 C9
+2023-02-18T17:00:00;Round of 16;EG Evil Geniuses;0 : 2;Talon Esports TLN
+2023-02-19T14:05:00;Quarterfinals;NRG NRG;1 : 2;LOUD LOUD
+2023-02-19T18:05:00;Quarterfinals;DRX DRX;2 : 1;Talon Esports TLN
+2023-02-22T14:10:00;Round of 32;TL Team Liquid;0 : 2;Team Secret TS
+2023-02-22T16:35:00;Round of 32;NAVI Natus Vincere;2 : 0;KRÜ Esports KRÜ
+2023-02-22T19:00:00;Round of 32;ZETA ZETA DIVISION;0 : 2;Leviatán LEV
+2023-02-23T14:10:00;Round of 32;VIT Team Vitality;2 : 1;Global Esports GE
+2023-02-23T17:15:00;Round of 32;FUT FUT Esports;2 : 0;Rex Regum Qeon RRQ
+2023-02-23T19:30:00;Round of 32;100T 100 Thieves;2 : 1;EDward Gaming EDG
+2023-02-24T14:05:00;Round of 32;SEN Sentinels;0 : 2;Fnatic FNC
+2023-02-24T16:50:00;Round of 32;T1 T1;0 : 2;FURIA Esports FUR
+2023-02-25T14:05:00;Round of 16;TS Team Secret;0 : 2;Natus Vincere NAVI
+2023-02-25T16:30:00;Round of 16;LEV Leviatán;2 : 0;Team Vitality VIT
+2023-02-26T14:05:00;Round of 16;FUT FUT Esports;1 : 2;100 Thieves 100T
+2023-02-26T17:35:00;Round of 16;FNC Fnatic;2 : 0;FURIA Esports FUR
+2023-02-27T14:05:00;Quarterfinals;NAVI Natus Vincere;2 : 0;Leviatán LEV
+2023-02-27T16:25:00;Quarterfinals;100T 100 Thieves;0 : 2;Fnatic FNC
+2023-03-2T14:10:00;Semifinals;LOUD LOUD;3 : 2;DRX DRX
+2023-03-3T14:05:00;Semifinals;NAVI Natus Vincere;0 : 3;Fnatic FNC
+2023-03-4T15:00:00;Grand Final;LOUD LOUD;0 : 0; Fnatic FNC
