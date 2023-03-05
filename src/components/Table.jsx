@@ -2,20 +2,36 @@ import data from "../data/games2.json"
 
 export default function Table() {
   return(
-    <table>
+    <div className="panel">
+          <div className="table-view">
+      <table>
+        <thead>
+          <tr>
+            <th>Horario</th>
+            <th>Times</th>
+            <th>Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+        {data.games.map((game, id) => {
+          const siglaParticipant1 = game.participant1.split(' ', 1)
+          const siglaParticipant2 = game.participant2.split(' ', 1)
+          return(
+            <tr key={id}>
+              <td>{game.datetime}</td>
+              <td>
+                <b>{siglaParticipant1}</b> x <b>{siglaParticipant2}</b>
+              </td>
+              <td>{game.finalScore}</td>
+            </tr>
+          )
+        })}
+        </tbody>
+      </table>
+    </div>
+    </div>
 
-      <tbody>
-      {data.games.map((game, id) => (
-        <tr key={id}>
-          <td>{id}</td>
-          <td>{game.datetime}</td>
-          <td>{game.participant1}</td>
-          <td>{game.participant2}</td>
-          <td>{game.finalScore}</td>
-        </tr>
-      ))}
-      </tbody>
-    </table>
+
   )
   /*   return(
     console.log(data.games)

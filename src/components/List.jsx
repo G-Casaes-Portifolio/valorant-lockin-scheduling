@@ -1,7 +1,7 @@
 import data from "../data/datetime.json"
 
 
-function List() {
+export default function List() {
   const options = {weekday: 'long', month: 'numeric', day: 'numeric',
     hour: '2-digit', minute: '2-digit'}
 
@@ -15,7 +15,7 @@ function List() {
   }
 
   return (
-    <div className="list-panel">
+    <div id="list-panel" className="panel">
       {data.datetime.map((roundset, i) => (
       <div className="list-item" key={i}>
         <h1>{roundset.title}</h1>
@@ -43,5 +43,3 @@ function List() {
     </div>
   )
 }
-
-export default List

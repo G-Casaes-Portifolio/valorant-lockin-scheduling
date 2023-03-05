@@ -1,4 +1,3 @@
-import { useState } from "react";
 import data from "../data/games.json"
 
 function clock() {
@@ -32,13 +31,9 @@ function gridCalendar() {
   return (table)
 }
 
-function Calendar() {
-
-
-
-
+export default function Calendar() {
   return (
-    <div>
+    <div id="calendar-view" className="panel" >
       <p>
         {clock()}
       </p>
@@ -59,5 +54,3 @@ function Calendar() {
     </div>
   )
 }
-
-export default Calendar;
