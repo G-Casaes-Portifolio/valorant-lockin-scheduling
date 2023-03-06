@@ -12,14 +12,14 @@
       "round": "Round of 32",
       "participant1": "DFM DetonatioN FocusMe",
       "finalScore": "0 : 2",
-      "participant2": "Giants GIA"
+      "participant2": "GIA Giants"
     },
     {
       "datetime": "2023-02-14T14:10:00",
       "round": "Round of 32",
       "participant1": "FPX FunPlus Phoenix",
       "finalScore": "1 : 2",
-      "participant2": "Karmine Corp KC"
+      "participant2": "KC Karmine Corp"
     },
     {
       "datetime": "2023-02-14T17:45:00",
@@ -33,21 +33,21 @@
       "round": "Round of 32",
       "participant1": "C9 Cloud9",
       "finalScore": "2 : 0",
-      "participant2": "Paper Rex PRX"
+      "participant2": "PRX Paper Rex"
     },
     {
       "datetime": "2023-02-15T14:05:00",
       "round": "Round of 32",
       "participant1": "EG Evil Geniuses",
       "finalScore": "2 : 0",
-      "participant2": "Team Heretics TH"
+      "participant2": "TH Team Heretics"
     },
     {
       "datetime": "2023-02-15T16:35:00",
       "round": "Round of 32",
       "participant1": "MIBR MIBR",
       "finalScore": "0 : 2",
-      "participant2": "Talon Esports TLN"
+      "participant2": "TLN Talon Esports"
     },
     {
       "datetime": "2023-02-15T19:20:00",
@@ -61,28 +61,28 @@
       "round": "Round of 16",
       "participant1": "NRG NRG",
       "finalScore": "2 : 1",
-      "participant2": "Giants GIA"
+      "participant2": "GIA Giants"
     },
     {
       "datetime": "2023-02-17T17:40:00",
       "round": "Round of 16",
       "participant1": "LOUD LOUD",
       "finalScore": "2 : 0",
-      "participant2": "Karmine Corp KC"
+      "participant2": "KC Karmine Corp"
     },
     {
       "datetime": "2023-02-18T14:05:00",
       "round": "Round of 16",
       "participant1": "DRX DRX",
       "finalScore": "2 : 1",
-      "participant2": "Cloud9 C9"
+      "participant2": "C9 Cloud9"
     },
     {
       "datetime": "2023-02-18T17:00:00",
       "round": "Round of 16",
       "participant1": "EG Evil Geniuses",
       "finalScore": "0 : 2",
-      "participant2": "Talon Esports TLN"
+      "participant2": "TLN Talon Esports"
     },
     {
       "datetime": "2023-02-19T14:05:00",
@@ -96,7 +96,7 @@
       "round": "Quarterfinals",
       "participant1": "DRX DRX",
       "finalScore": "2 : 1",
-      "participant2": "Talon Esports TLN"
+      "participant2": "TLN Talon Esports"
     },
     {
       "datetime": "2023-02-22T14:10:00",
@@ -117,105 +117,105 @@
       "round": "Round of 32",
       "participant1": "ZETA ZETA DIVISION",
       "finalScore": "0 : 2",
-      "participant2": "Leviatán LEV"
+      "participant2": "LEV Leviatán"
     },
     {
       "datetime": "2023-02-23T14:10:00",
       "round": "Round of 32",
       "participant1": "VIT Team Vitality",
       "finalScore": "2 : 1",
-      "participant2": "Global Esports GE"
+      "participant2": "GE Global Esports"
     },
     {
       "datetime": "2023-02-23T17:15:00",
       "round": "Round of 32",
       "participant1": "FUT FUT Esports",
       "finalScore": "2 : 0",
-      "participant2": "Rex Regum Qeon RRQ"
+      "participant2": "RRQ Rex Regum Qeon"
     },
     {
       "datetime": "2023-02-23T19:30:00",
       "round": "Round of 32",
       "participant1": "100T 100 Thieves",
       "finalScore": "2 : 1",
-      "participant2": "EDward Gaming EDG"
+      "participant2": "EDG EDward Gaming"
     },
     {
       "datetime": "2023-02-24T14:05:00",
       "round": "Round of 32",
       "participant1": "SEN Sentinels",
       "finalScore": "0 : 2",
-      "participant2": "Fnatic FNC"
+      "participant2": "FNC Fnatic"
     },
     {
       "datetime": "2023-02-24T16:50:00",
       "round": "Round of 32",
       "participant1": "T1 T1",
       "finalScore": "0 : 2",
-      "participant2": "FURIA Esports FUR"
+      "participant2": "FUR FURIA Esports"
     },
     {
       "datetime": "2023-02-25T14:05:00",
       "round": "Round of 16",
       "participant1": "TS Team Secret",
       "finalScore": "0 : 2",
-      "participant2": "Natus Vincere NAVI"
+      "participant2": "NAVI Natus Vincere"
     },
     {
       "datetime": "2023-02-25T16:30:00",
       "round": "Round of 16",
       "participant1": "LEV Leviatán",
       "finalScore": "2 : 0",
-      "participant2": "Team Vitality VIT"
+      "participant2": "VIT Team Vitality"
     },
     {
       "datetime": "2023-02-26T14:05:00",
       "round": "Round of 16",
       "participant1": "FUT FUT Esports",
       "finalScore": "1 : 2",
-      "participant2": "100 Thieves 100T"
+      "participant2": "100T 100 Thieves"
     },
     {
       "datetime": "2023-02-26T17:35:00",
       "round": "Round of 16",
       "participant1": "FNC Fnatic",
       "finalScore": "2 : 0",
-      "participant2": "FURIA Esports FUR"
+      "participant2": "FUR FURIA Esports"
     },
     {
       "datetime": "2023-02-27T14:05:00",
       "round": "Quarterfinals",
       "participant1": "NAVI Natus Vincere",
       "finalScore": "2 : 0",
-      "participant2": "Leviatán LEV"
+      "participant2": "LEV Leviatán"
     },
     {
       "datetime": "2023-02-27T16:25:00",
       "round": "Quarterfinals",
       "participant1": "100T 100 Thieves",
       "finalScore": "0 : 2",
-      "participant2": "Fnatic FNC"
+      "participant2": "FNC Fnatic"
     },
     {
-      "datetime": "2023-03-2T14:10:00",
+      "datetime": "2023-03-02T14:10:00",
       "round": "Semifinals",
       "participant1": "LOUD LOUD",
       "finalScore": "3 : 2",
       "participant2": "DRX DRX"
     },
     {
-      "datetime": "2023-03-3T14:05:00",
+      "datetime": "2023-03-03T14:05:00",
       "round": "Semifinals",
       "participant1": "NAVI Natus Vincere",
       "finalScore": "0 : 3",
-      "participant2": "Fnatic FNC"
+      "participant2": "FNC Fnatic"
     },
     {
-      "datetime": "2023-03-4T15:00:00",
+      "datetime": "2023-03-04T15:00:00",
       "round": "Grand Final",
       "participant1": "LOUD LOUD",
       "finalScore": "2 : 3",
-      "participant2": "Fnatic FNC"
+      "participant2": "FNC Fnatic"
     }
   ]
 }

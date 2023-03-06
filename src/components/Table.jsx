@@ -1,9 +1,11 @@
 import data from "../data/games2.json"
 
 export default function Table() {
+  const options = {weekday: 'long', month: 'numeric', day: 'numeric',
+    hour: '2-digit', minute: '2-digit'}
+
   return(
-    <div className="panel">
-          <div className="table-view">
+    <div id="table-view" className="panel">
       <table>
         <thead>
           <tr>
@@ -16,19 +18,27 @@ export default function Table() {
         {data.games.map((game, id) => {
           const siglaParticipant1 = game.participant1.split(' ', 1)
           const siglaParticipant2 = game.participant2.split(' ', 1)
+          const placar = game.finalScore.split(":")
+          if(placar[0] > placar[1]){
+            let winner = placar[0];
+          }
           return(
             <tr key={id}>
-              <td>{game.datetime}</td>
-              <td>
-                <b>{siglaParticipant1}</b> x <b>{siglaParticipant2}</b>
+              <td id="date">
+                {new Date(game.datetime).toLocaleDateString(
+                  'pt-BR', options).toString()}
               </td>
-              <td>{game.finalScore}</td>
+              <td id="participants">
+                {siglaParticipant1} x {siglaParticipant2}
+              </td>
+              <td id="score">
+                {game.finalScore}
+              </td>
             </tr>
           )
         })}
         </tbody>
       </table>
-    </div>
     </div>
 
 

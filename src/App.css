@@ -8,23 +8,28 @@
   text-align: center;
 }
 
+
 /* APP COMPONENTS */
-.main-panel {
-  display: flex;
-  flex-flow: column nowrap;
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
-.main-panel .nav {
+.header .nav {
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
   border: blue thin solid;
 }
-.main-panel div:last-child {
-  margin: auto;
+/* PANEL COMPONENT */
+.panel {
+  overflow: auto;
 }
 /* LIST VIEW */
 #list-panel {
+  margin: auto;
   display: grid;
+  max-width: 1240px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -41,7 +46,16 @@
 .round-container h1 {
   font-size: 24px;
   padding: 0 4.5rem;
+  text-align: center;
   cursor: pointer;
+}
+.round-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.round-container ul li { 
+  text-align: left;
 }
 
 .content { 
@@ -50,29 +64,6 @@
 .content:active {
   display: block;
 }
-/* TABLE VIEW */
-.table-view {
-  display: flex;
-  justify-content: center;
-  padding: 3em;
-}
-/* .panel {
-  display: flex;
-  flex-flow: column wrap;
-  height: 30vh;
-  overflow: auto;
-} */
-
-.table-view table {
-  padding: 1em 0 0;
-  border: white 2px solid;
-  border-radius: 18px;
-
-}
-.table-view table td { 
-  border: #AAAAAA 1px solid;
-}
-
 /* CALENDAR VIEW */
 #calendar-view table {
   display: grid;
@@ -95,7 +86,23 @@
 #calendar-view td .day-in-month {
   color: var(--calendar-main-color);
 }
-
+/* TABLE VIEW */
+#table-view {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+#table-view table {
+  padding: 1em 0 0;
+  border: white 2px solid;
+  border-radius: 18px;
+}
+#table-view table td { 
+  border: #AAAAAA 1px solid;
+}
+#participants {
+  font-weight: 700;
+} 
 
 
 
