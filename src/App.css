@@ -108,6 +108,10 @@
   border-radius: 4px;
   padding: 10px;
 }
+#calendar-view .calendar-dates-day-empty {
+  background: none;
+  broder: 0;
+}
 #calendar-view .calendar-button-row {
   display: flex;
   align-items: center;

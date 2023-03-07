@@ -1,5 +1,5 @@
 import data from "../data/games.json"
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import * as dayjs from 'dayjs';
 
 let currentDate = dayjs();
@@ -31,33 +31,51 @@ function DaysOfMonth() {
   let count = 1;
   let prevMonthLastDate = currentDate.subtract(1, "month").endOf("month").$D
   
+  //PREVIOUS MONTH
   let prevMonthDateArray = [];
-  //Previous month
   for (let p = 1; p <= firstDay; p++){
     prevMonthDateArray.push(prevMonthLastDate--);
   }
   prevMonthDateArray = prevMonthDateArray.reverse();
-  //Current month
+  //CURRENT MONTH
   const currentMonthDateArray = []
-  for (let i = 0; i < daysOfMonth; i++) {
+  for (let i = 0; i < daysOfMonth; i++) 
     currentMonthDateArray.push(count++)
-  } 
-  const totalMonthDateArray = prevMonthDateArray.concat(currentMonthDateArray)
-  //Next month
-  let diff = 42 - totalMonthDateArray.length;
-  let nextMonthDates = 1;
-  for (let j = 0; j < diff; j++){
-    totalMonthDateArray.push(nextMonthDates++)
-  }
+
+  // variáveis da pagina do calendário
+  const numberOfPlots = 42; // quantidade de números por pagina do calendário
+  const datesPloted = ( // quantidade de datas ja dispostas na pagina
+    prevMonthDateArray.length + currentMonthDateArray.length)
+
+  let diff = numberOfPlots - datesPloted; // quantidade de datas faltantes 
+  let nextMonthDates = 1; // data do novo mes 
+  
+  //NEXT MONTH
+  const nextMonthDateArray = []
+  for (let j = 0; j < diff; j++) 
+    nextMonthDateArray.push(nextMonthDates++);
+
+  // Array com a data dos tres meses
+  const totalMonthDateArray = [
+    prevMonthDateArray, currentMonthDateArray, nextMonthDateArray]
 
   return totalMonthDateArray;
 }
 
+
 export default function Calendar() {
   const dates = DaysOfMonth();
-
+  
   const [title, setTitle] = useState(`${nameOfMonths[currentDate.month()]} - ${currentDate.year()}`)
-
+  
+  function changeMonth(quant){
+    newMonth = currentDate.add(quant, "month").startOf("month"); // novo mes
+    daysOfMonth = newMonth.daysInMonth(); // recebe os dias do mes do DayJs
+    firstDay = newMonth.startOf("month").day(); // recebe o primeiro dia do mes
+    // Atualiza o mes atual com o novo mes e muda o titulo
+    currentDate = newMonth; 
+    setTitle(`${nameOfMonths[currentDate.month()]} - ${currentDate.year()}`)
+  }
   return (
     <div id="calendar-view" className="panel" >
       <div className="calendar-header">
@@ -65,22 +83,10 @@ export default function Calendar() {
           {title}
         </span>
         <div className="calendar-button-row">
-          <button id="prevMonth" onClick={() => {
-            newMonth = currentDate.subtract(1, "month").startOf("month");
-            daysOfMonth = newMonth.daysInMonth();
-            firstDay = newMonth.startOf("month").day();
-            currentDate = newMonth;
-            setTitle(`${nameOfMonths[currentDate.month()]} - ${currentDate.year()}`)
-          }}>&lt;
+          <button id="prevMonth" onClick={() => changeMonth(-1)}>&lt;
           </button>
           <button id="today">Today</button>
-          <button id="prevMonth" onClick={() => {
-            newMonth = currentDate.add(1, "month").startOf("month");
-            daysOfMonth = newMonth.daysInMonth();
-            firstDay = newMonth.startOf("month").day();
-            currentDate = newMonth;
-            setTitle(`${nameOfMonths[currentDate.month()]} - ${currentDate.year()}`)
-          }}>&gt;
+          <button id="prevMonth" onClick={() => changeMonth(1)}>&gt;
           </button>
         </div>
       </div>
@@ -88,9 +94,23 @@ export default function Calendar() {
         <DaysOfWeek />
       </div>
       <div className="calendar-dates">
-        {dates.map((day, i) => {
+        {dates[0].map((day, i) => {
+          return (
+            <button key={i} className="calendar-dates-day-empty">
+              {day}
+            </button>
+          )
+        })}
+        {dates[1].map((day, i) => {
           return (
             <button key={i} className="calendar-dates-day">
+              {day}
+            </button>
+          )
+        })}
+        {dates[2].map((day, i) => {
+          return (
+            <button key={i} className="calendar-dates-day-empty">
               {day}
             </button>
           )
