@@ -2,9 +2,7 @@ import data from "../data/games.json"
 import * as dayjs from 'dayjs';
 
 const currentDate = dayjs();
-
 const daysOfMonth = dayjs().daysInMonth()
-
 const firstDay = dayjs().startOf("month").day();
 
 const nameOfMonths = [
@@ -49,7 +47,7 @@ function DaysOfMonth() {
   for (let j = 0; j < diff; j++){
     totalMonthDateArray.push(nextMonthDates++)
   }
-  
+
   return totalMonthDateArray;
 }
 
@@ -58,32 +56,26 @@ export default function Calendar() {
   
   return (
     <div id="calendar-view" className="panel" >
-      <div className="calendar">
-        <div className="calendar-header">
-          <span id="month-picker">Fevereiro</span>
-          <div className="year-picker">
-            <span className="year-change" id="prev-year">
-              -
-            </span>
-            <span id="year">2023</span>
-            <span className="year-change" id="next-year">
-              +
-            </span>
-          </div>
-        </div>
-        <div className="calendar-body">
-          <div className="calendar-week-day">
-            <DaysOfWeek />
-          </div>
-          <div className="calendar-days">
-            {dates.map((day) => {
-              return <button>{day}</button>
-            })}
-          </div>
+      <div className="calendar-header">
+        <span className="calendar-title">Fevereiro</span>
+        <div className="calendar-button-row">
+          <button id="prevMonth">&lt;</button>
+          <button id="today">Today</button>
+          <button id="prevMonth">&gt;</button>
         </div>
       </div>
-      
-
+      <div className="calendar-day-name">
+        <DaysOfWeek />
+      </div>
+      <div className="calendar-dates">
+        {dates.map((day) => {
+          return (
+            <button className="calendar-dates-day">
+              {day}
+            </button>
+          )
+        })}
+      </div>
     </div>
   )
 }
