@@ -29,20 +29,33 @@ function DaysOfWeek() {
 
 function DaysOfMonth() {
   let count = 1;
-  let prevMonthLastDate = currentDate.subtract(1, "month").endOf("month")
-  const prevMonthDateArray = [];
-  console.log(firstDay)
+  let prevMonthLastDate = currentDate.subtract(1, "month").endOf("month").$D
+  
+  let prevMonthDateArray = [];
   //Previous month
-  for (let p = 1; p < firstDay; p++){
-    prevMonthDateArray.push(prevMonthLastDate.subtract(1, "days"));
+  for (let p = 1; p <= firstDay; p++){
+    prevMonthDateArray.push(prevMonthLastDate--);
   }
-
-  prevMonthDateArray.reverse().forEach((day) => {
-    
-  })
+  prevMonthDateArray = prevMonthDateArray.reverse();
+  //Current month
+  const currentMonthDateArray = []
+  for (let i = 0; i < daysOfMonth; i++) {
+    currentMonthDateArray.push(count++)
+  } 
+  const totalMonthDateArray = prevMonthDateArray.concat(currentMonthDateArray)
+  //Next month
+  let diff = 42 - totalMonthDateArray.length;
+  let nextMonthDates = 1;
+  for (let j = 0; j < diff; j++){
+    totalMonthDateArray.push(nextMonthDates++)
+  }
+  
+  return totalMonthDateArray;
 }
 
 export default function Calendar() {
+  const dates = DaysOfMonth();
+  
   return (
     <div id="calendar-view" className="panel" >
       <div className="calendar">
@@ -63,7 +76,9 @@ export default function Calendar() {
             <DaysOfWeek />
           </div>
           <div className="calendar-days">
-            <DaysOfMonth />
+            {dates.map((day) => {
+              return <button>{day}</button>
+            })}
           </div>
         </div>
       </div>
