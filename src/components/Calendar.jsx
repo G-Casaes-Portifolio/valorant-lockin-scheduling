@@ -4,13 +4,14 @@ import * as dayjs from 'dayjs';
 
 const gamesDates = []
 data.games.map((game) => {
-  gamesDates.push(new dayjs(game.datetime).hour(0))
+  gamesDates.push(new dayjs(game.datetime))
 })
 
 let currentDate = dayjs();
-let daysOfMonth = dayjs().daysInMonth()
-let firstDay = dayjs().startOf("month").day();
 let newMonth = currentDate;
+let firstDayOfMonth = dayjs().startOf("month").day()
+let daysOfMonth = dayjs().daysInMonth()
+
 
 const nameOfMonths = [
   "Janeiro", "Fevereiro", "Março", "Abril", "Maio",
@@ -32,7 +33,7 @@ function DaysOfWeek() {
   )
 }
 
-function DaysOfMonth() {
+function PlotDates() {
   let prevMonth = currentDate.subtract(1, "month");
   /* PREVIOUS MONTH */
   // Get only month day (number: int) from the previous month
@@ -45,7 +46,7 @@ function DaysOfMonth() {
     2. fill a array with prev month daysjs object
     3. decrease the counter and restart the loop 
   */
-  for (let i = 1; i < dayjs().startOf("month").day(); i++){
+  for (let i = 1; i < firstDayOfMonth; i++){
     // Get last date (month day) object from previous month 
     let lastDate = prevMonth.set('date', prevMonthCounter);
     prevMonthDateArray.push(lastDate) // push object to array
@@ -56,7 +57,7 @@ function DaysOfMonth() {
   /* CURRENT MONTH */
   let currentMonthCounter = 1;
   let currentMonthDateArray = [];
-  for (let i = 0; i < dayjs().daysInMonth();  i++){
+  for (let i = 0; i < daysOfMonth;  i++){
     // Get date day object from current month and from counter 
     let lastDate = currentDate.set('date', currentMonthCounter);
     currentMonthDateArray.push(lastDate)
@@ -83,19 +84,32 @@ function DaysOfMonth() {
 
   return totalMonthDateArray
 }
+
+function defineDay(date) {
+  let name = "calendar-dates-day"
+  if(date.month() != currentDate.month())
+    name = "calendar-dates-day-empty"
+  gamesDates.map((gameDate) => {
+    if(gameDate.month() == date.month() && gameDate.date() == date.date() )
+      name = name.concat(" active")
+  })
+  return name;
+}
+
 export default function Calendar() {
-  const dates = DaysOfMonth();
+  const dates = PlotDates();
   
   const [title, setTitle] = useState(`${nameOfMonths[currentDate.month()]} - ${currentDate.year()}`)
 
   function changeMonth(quant){
     newMonth = currentDate.add(quant, "month").startOf("month"); // novo mes
-    daysOfMonth = newMonth.daysInMonth(); // recebe os dias do mes do DayJs
-    firstDay = newMonth.startOf("month").day(); // recebe o primeiro dia do mes
+    daysOfMonth = newMonth.daysInMonth()
+    firstDayOfMonth = newMonth.startOf("month").day(); // recebe o primeiro dia do mes
     // Atualiza o mes atual com o novo mes e muda o titulo
     currentDate = newMonth; 
     setTitle(`${nameOfMonths[currentDate.month()]} - ${currentDate.year()}`)
   }
+
   return (
     <div id="calendar-view" className="panel" >
       <div className="calendar-header">
@@ -116,10 +130,7 @@ export default function Calendar() {
       <div className="calendar-dates">
         {dates.map((date, i) => {
           return (
-            <button key={i} className={
-              (date.month() == currentDate.month()) 
-                ? "calendar-dates-day"
-                : "calendar-dates-day-empty"}>
+            <button key={i} className={defineDay(date)}>
               {date.date()}
             </button>
           )

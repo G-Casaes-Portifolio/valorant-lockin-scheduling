@@ -112,10 +112,14 @@
 }
 #calendar-view .calendar-dates-day-empty {
   background: none;
-  broder: 0;
+  border: none;
+  border-radius: 4px;
 }
-#calendar-view .calendar-dates-day-active {
+#calendar-view .calendar-dates-day.active{ 
   background: red;
+}
+#calendar-view .calendar-dates-day-empty.active {
+  background: rgb(255, 0, 0, 0.25);
 }
 /* Controls */
 #calendar-view .calendar-button-row {
