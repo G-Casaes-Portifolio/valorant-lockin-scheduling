@@ -99,10 +99,12 @@
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 8px;
 }
+/* Week days */
 #calendar-view .calendar-day-name {
   font-size: 20px; 
   font-weight: 600;
 }
+/* Days */
 #calendar-view .calendar-dates-day {
   border: 1px solid #1a1a1a;
   border-radius: 4px;
@@ -112,6 +114,10 @@
   background: none;
   broder: 0;
 }
+#calendar-view .calendar-dates-day-active {
+  background: red;
+}
+/* Controls */
 #calendar-view .calendar-button-row {
   display: flex;
   align-items: center;
