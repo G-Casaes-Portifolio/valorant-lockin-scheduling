@@ -1,18 +1,17 @@
 :root {
-  --calendar-bg-color: #787878;
-  --calendar-aux-color: #292929;
-  --calendar-main-color: #ebc04b;
   --border: thin white solid;
   --font-color: white;
 }
 
 #root {
   text-align: center;
+  background-color: var(--bg-color);
 }
 
 
 /* APP COMPONENTS */
 .header {
+  background-color: var(--bg-color);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -23,6 +22,9 @@
   padding: 1rem;
   border: blue thin solid;
 }
+.header .title h1 {
+  margin-top: 0;
+}
 /* PANEL COMPONENT */
 .panel {
   overflow: auto;
@@ -31,6 +33,7 @@
 #list-panel {
   margin: auto;
   display: grid;
+  margin: 20px auto;
   max-width: 1240px;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -69,16 +72,11 @@
 
 /* CALENDAR VIEW */
 #calendar-view {
-/*   display: flex;
-  flex-direction: column;
-  justify-items: center; */
   padding: 20px;
   max-width: 450px;
-  margin: 30px auto;
+  margin: 20px auto;
   border: var(--border);
   border-radius: 18px;
-  /* poisition: relative; 
-  overflow: hidden; */
 }
 #calendar-view .calendar-header {
   display: flex;
@@ -137,20 +135,26 @@
   border: 1px solid #1a1a1a;
   border-radius: 4px;
 }
-
+/*  */
 /* TABLE VIEW */
 #table-view {
+  margin: 20px auto;
+  max-width: 1240px;
+}
+#table-view .table-container {
   display: flex;
-  justify-content: center;
-  padding: 3em;
+  flex-flow: column wrap;
+  align-items: center;
+  max-height: 500px;
 }
-#table-view table {
-  padding: 1em 0 0;
-  border: var(--border);
-  border-radius: 18px;
+#table-view .table-row {
+  flex: 1 1 33%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 200px 100px 50px;
 }
-#table-view table td { 
-  border: #AAAAAA 1px solid;
+#table-view .table-cell {
+  border: white thin solid;
 }
 #participants {
   font-weight: 700;
