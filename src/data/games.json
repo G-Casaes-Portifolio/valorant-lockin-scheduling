@@ -1,0 +1,250 @@
+[
+  {
+    "id": "1-eA-02-13",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-13T14:15:00",
+    "participants": ["KOI", "NRG"],
+    "result": { "score": ["0", "2"], "winner": "NRG NRG" }
+  },
+  {
+    "id": "2-eA-02-13",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-13T17:05:00",
+    "participants": ["DFM", "GIA"],
+    "result": { "score": ["0", "2"], "winner": "GIA Giants" }
+  },
+  {
+    "id": "3-eA-02-14",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-14T14:10:00",
+    "participants": ["FPX", "KC"],
+    "result": { "score": ["1", "2"], "winner": "KC Karmine Corp" }
+  },
+  {
+    "id": "4-eA-02-14",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-14T17:45:00",
+    "participants": ["BBL", "DRX"],
+    "result": { "score": ["1", "2"], "winner": "DRX DRX" }
+  },
+  {
+    "id": "5-eA-02-14",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-14T20:50:00",
+    "participants": ["C9", "PRX"],
+    "result": { "score": ["2", "0"], "winner": "C9 Cloud9" }
+  },
+  {
+    "id": "6-eA-02-15",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-15T14:05:00",
+    "participants": ["EG", "TH"],
+    "result": { "score": ["2", "0"], "winner": "EG Evil Geniuses" }
+  },
+  {
+    "id": "7-eA-02-15",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-15T16:35:00",
+    "participants": ["MIBR", "TLN"],
+    "result": { "score": ["0", "2"], "winner": "TLN Talon Esports" }
+  },
+  {
+    "id": "8-eA-02-15",
+    "class": "Alfa",
+    "round": "Round of 32",
+    "datetime": "2023-02-15T19:20:00",
+    "participants": ["GEN", "LOUD"],
+    "result": { "score": ["0", "2"], "winner": "LOUD LOUD" }
+  },
+  {
+    "id": "9-dA-02-17",
+    "class": "Alfa",
+    "round": "Round of 16",
+    "datetime": "2023-02-17T14:10:00",
+    "participants": ["NRG", "GIA"],
+    "result": { "score": ["2", "1"], "winner": "NRG NRG" }
+  },
+  {
+    "id": "10-dA-02-17",
+    "class": "Alfa",
+    "round": "Round of 16",
+    "datetime": "2023-02-17T17:40:00",
+    "participants": ["LOUD", "KC"],
+    "result": { "score": ["2", "0"], "winner": "LOUD LOUD" }
+  },
+  {
+    "id": "11-dA-02-18",
+    "class": "Alfa",
+    "round": "Round of 16",
+    "datetime": "2023-02-18T14:05:00",
+    "participants": ["DRX", "C9"],
+    "result": { "score": ["2", "1"], "winner": "DRX DRX" }
+  },
+  {
+    "id": "12-dA-02-18",
+    "class": "Alfa",
+    "round": "Round of 16",
+    "datetime": "2023-02-18T17:00:00",
+    "participants": ["EG", "TLN"],
+    "result": { "score": ["0", "2"], "winner": "TLN Talon Esports" }
+  },
+  {
+    "id": "13-cA-02-19",
+    "class": "Alfa",
+    "round": "Quarterfinals",
+    "datetime": "2023-02-19T14:05:00",
+    "participants": ["NRG", "LOUD"],
+    "result": { "score": ["1", "2"], "winner": "LOUD LOUD" }
+  },
+  {
+    "id": "14-cA-02-19",
+    "class": "Alfa",
+    "round": "Quarterfinals",
+    "datetime": "2023-02-19T18:05:00",
+    "participants": ["DRX", "TLN"],
+    "result": { "score": ["2", "1"], "winner": "DRX DRX" }
+  },
+  {
+    "id": "15-eB-02-22",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-22T14:10:00",
+    "participants": ["TL", "Team"],
+    "result": { "score": ["0", "2"], "winner": "Team Secret TS" }
+  },
+  {
+    "id": "16-eB-02-22",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-22T16:35:00",
+    "participants": ["NAVI", "KRU"],
+    "result": { "score": ["2", "0"], "winner": "NAVI Natus Vincere" }
+  },
+  {
+    "id": "17-eB-02-22",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-22T19:00:00",
+    "participants": ["ZETA", "LEV"],
+    "result": { "score": ["0", "2"], "winner": "LEV Leviatan" }
+  },
+  {
+    "id": "18-eB-02-23",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-23T14:10:00",
+    "participants": ["VIT", "GE"],
+    "result": { "score": ["2", "1"], "winner": "VIT Team Vitality" }
+  },
+  {
+    "id": "19-eB-02-23",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-23T17:15:00",
+    "participants": ["FUT", "RRQ"],
+    "result": { "score": ["2", "0"], "winner": "FUT FUT Esports" }
+  },
+  {
+    "id": "20-eB-02-23",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-23T19:30:00",
+    "participants": ["100T", "EDG"],
+    "result": { "score": ["2", "1"], "winner": "100T 100 Thieves" }
+  },
+  {
+    "id": "21-eB-02-24",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-24T14:05:00",
+    "participants": ["SEN", "FNC"],
+    "result": { "score": ["0", "2"], "winner": "FNC Fnatic" }
+  },
+  {
+    "id": "22-eB-02-24",
+    "class": "Omega",
+    "round": "Round of 32",
+    "datetime": "2023-02-24T16:50:00",
+    "participants": ["T1", "FUR"],
+    "result": { "score": ["0", "2"], "winner": "FUR FURIA Esports" }
+  },
+  {
+    "id": "23-dB-02-25",
+    "class": "Omega",
+    "round": "Round of 16",
+    "datetime": "2023-02-25T14:05:00",
+    "participants": ["TS", "NAVI"],
+    "result": { "score": ["0", "2"], "winner": "NAVI Natus Vincere" }
+  },
+  {
+    "id": "24-dB-02-25",
+    "class": "Omega",
+    "round": "Round of 16",
+    "datetime": "2023-02-25T16:30:00",
+    "participants": ["LEV", "VIT"],
+    "result": { "score": ["2", "0"], "winner": "LEV Leviatan" }
+  },
+  {
+    "id": "25-dB-02-26",
+    "class": "Omega",
+    "round": "Round of 16",
+    "datetime": "2023-02-26T14:05:00",
+    "participants": ["FUT", "100T"],
+    "result": { "score": ["1", "2"], "winner": "100T 100 Thieves" }
+  },
+  {
+    "id": "26-dB-02-26",
+    "class": "Omega",
+    "round": "Round of 16",
+    "datetime": "2023-02-26T17:35:00",
+    "participants": ["FNC", "FUR"],
+    "result": { "score": ["2", "0"], "winner": "FNC Fnatic" }
+  },
+  {
+    "id": "27-cB-02-27",
+    "class": "Omega",
+    "round": "Quarterfinals",
+    "datetime": "2023-02-27T14:05:00",
+    "participants": ["NAVI", "LEV"],
+    "result": { "score": ["2", "0"], "winner": "NAVI Natus Vincere" }
+  },
+  {
+    "id": "28-cB-02-27",
+    "class": "Omega",
+    "round": "Quarterfinals",
+    "datetime": "2023-02-27T16:25:00",
+    "participants": ["100T", "FNC"],
+    "result": { "score": ["0", "2"], "winner": "FNC Fnatic" }
+  },
+  {
+    "id": "29-bC-03-02",
+    "class": "Final",
+    "round": "Semifinals",
+    "datetime": "2023-03-02T14:10:00",
+    "participants": ["LOUD", "DRX"],
+    "result": { "score": ["3", "2"], "winner": "LOUD LOUD" }
+  },
+  {
+    "id": "30-bC-03-03",
+    "class": "Final",
+    "round": "Semifinals",
+    "datetime": "2023-03-03T14:05:00",
+    "participants": ["NAVI", "FNC"],
+    "result": { "score": ["0", "3"], "winner": "FNC Fnatic" }
+  },
+  {
+    "id": "31-aC-03-04",
+    "class": "Final",
+    "round": "Grand Final",
+    "datetime": "2023-03-04T15:00:00",
+    "participants": ["LOUD", "FNC"],
+    "result": { "score": ["2", "3"], "winner": "FNC Fnatic" }
+  }
+]
